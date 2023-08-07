@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solve a Sudoku</title>
+
+    <style>
+        body {
+            color: rgb(0, 149, 144);
+            background-color: rgb(0, 99, 124);
+        }
+        
+        #mysudoku {
+            width: 100%;
+            height: 10vmin;
+            font-weight: bold;
+            margin-bottom: 5px;
+            background-color: white;
+        }
+        
+        #startSudoku {
+            width: 100%;
+            height: 10vmin;
+            margin-top: 5px;
+            font-weight: bold;
+            border-radius: 9px;
+            background-color: white;
+        }
+        
+        #sudokuTimer {
+            width: 100%;
+            display: none;
+            color: yellow;
+            font-size: 5vmin;
+            text-align: center;
+        }
+        
+        table {
+            margin: auto;
+            text-align: center;
+            table-layout: fixed;
+            border: thick solid white;
+            border-collapse: collapse;
+        }
+        
+        td {
+            width: 10vmin;
+            border: 1px solid white;
+        }
+        
+        tr {
+            height: 10vmin;
+            font-size: 5vmin;
+        }
+        
+        #controls {
+            margin: 3px;
+            display: none;
+            text-align: center;
+        }
+        
+        #controls button {
+            margin: 3px;
+            color: black;
+            height: 9vmin;
+            border-radius: 11px;
+            background-color: white;
+        }
+        
+        button:focus,
+        button:active {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <select id="mysudoku"> 
+            <option value="22">4x4</option> 
+            <option value="23">6x6</option> 
+            <option value="24">8x8</option> 
+            <option value="33">9x9</option> 
+        </select>
+    <button id="startSudoku" onclick="startSudoku()">Solve Sudoku!</button>
+    <br>
+    <div id="sudokuTimer"><i>Time Taken</i>:<b> 0 </b>Seconds</div>
+    <br>
+    <table id="sudoku"></table>
+    <br>
+    <div id="controls">
+        <button id="btn1" onclick="fillSudoku(1)">1</button>
+        <button id="btn2" onclick="fillSudoku(2)">2</button>
+        <button id="btn3" onclick="fillSudoku(3)">3</button>
+        <button id="btn4" onclick="fillSudoku(4)">4</button>
+        <button id="btn5" onclick="fillSudoku(5)">5</button>
+        <br>
+        <button id="btn6" onclick="fillSudoku(6)">6</button>
+        <button id="btn7" onclick="fillSudoku(7)">7</button>
+        <button id="btn8" onclick="fillSudoku(8)">8</button>
+        <button id="btn9" onclick="fillSudoku(9)">9</button>
+        <button id="doneSudoku" onclick="doneSudoku()">&#10004;</button>
+        <button id="stopSudoku" onclick="stopSudoku()">&#10060;</button>
+    </div>
+    <input id="curr_x" type="hidden" />
+    <input id="curr_y" type="hidden" />
+    <script>
+        var sudoku = [];
+        var sudokuSize = 0;
+        var sudokuSize2 = 0;
+        var sudokuSize3 = 0;
+        var sudokuSize4 = 0;
+        var sudokuSize5 = 0;
+        var sudokuSize6 = 0;
+        var sudokuSize7 = 0;
+        var sudokuSize8 = 0;
+        var sudokuSize9 = 0;
+        var sudokuSize10 = 0;
+        var sudokuSize11 = 0;
+        var sudokuSize12 = 0;
+        var sudokuSize13 = 0;
+        var sudokuSize14 = 0;
+        var sudokuSize15 = 0;
+        var sudokuSize16 = 0;
+        var sudokuSize17 = 0;
+        var sudokuSize18 = 0;
+        var sudokuSize19 = 0;
+        var sudokuSize20 = 0;
+        var sudokuSize21 = 0;
+        var sudokuSize22 = 0;
+        var sudokuSize23 = 0;
+        var sudokuSize24 = 0;
+        var sudokuSize25 = 0;
+        var sudokuSize26 = 0;
+        var sudokuSize27 = 0;
+        var sudokuSize28 = 0;
+        var sudokuSize29 = 0;
+        var sudokuSize30 = 0;
+        var sudokuSize31 = 0;
+        var sudokuSize32 = 0;
+        var sudokuSize33 = 0;
+        var sudokuSize34 = 0;
+        var sudokuSize35 = 0;
+        var sudokuSize36 = 0;
+        var sudokuSize37 = 0;
+        var sudokuSize38 = 0;
+        var sudokuSize39 = 0;
+        var sudokuSize40 = 0;
+        var sudokuSize41 = 0;
+        var sudokuSize42 = 0;
+        var sudokuSize43 = 0;
+        var sudokuSize44 = 0;
+        var sudokuSize45 = 0;
+        var sudokuSize46 = 0;
+        var sudokuSize47 = 0;
+        var sudokuSize48 = 0;
+        var sudokuSize49 = 0;
+        var sudokuSize50 = 0;
+        var sudokuSize51 = 0;
+        var sudokuSize52 = 0;
+        var sudokuSize53 = 0;
+        var sudokuSize54 = 0;
+        var sudokuSize55 = 0;
+        var sudokuSize56 = 0;
+        var sudokuSize57 = 0;
+        //var sudokuSize58 = 0;
+        <
+        /body>
+
+        <
+        /html>
